@@ -66,7 +66,10 @@
     transition: background 0.3s;
 }
 
+footer {
 
+    padding: 30px;
+}
 
 /* =============== Responsive =============== */
 
