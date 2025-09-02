@@ -1,0 +1,108 @@
+/* ================== Title ================== */
+
+.menu-title {
+    text-align: center;
+    background: #e74c3c;
+    color: #fff;
+    padding: 30px 10px;
+    margin-bottom: 20px;
+}
+
+.menu-title h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+
+/* ================== Order Section ================== */
+
+.order {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+
+/* ================== Category Cards ================== */
+
+fieldset {
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e74c3c;
+    padding: 0 10px;
+}
+
+
+/* ================== Each Item ================== */
+
+fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+
+/* ================== Quantity Input ================== */
+
+input[type="number"] {
+    width: 80px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #e74c3c;
+}
+
+input,textarea{ 
+    padding: 12px;
+}
+/* ================== Customer Info ================== */
+
+.order-form label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+
+/* ================== Submit Button ================== */
+
+button {
+    background: #e74c3c;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-color: wheat
+}
+
+h1,h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: #e74c3c;
+}

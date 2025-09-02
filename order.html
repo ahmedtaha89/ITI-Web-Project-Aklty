@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aklty - Order</title>
+    <link rel="stylesheet" href="main-css/main.css">
+    <link rel="stylesheet" href="main-css/order.css">
+
+</head>
+
+<body class="flex-center">
+    <!-- Header -->
+    <header>
+        <div class="brand">
+            <span class="logo-text"><a href="index.html">Aklty</a></span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order.html" class="active">Order</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <div class="contact">
+            <a href="tel:+201025829140">📞 +201025829140</a>
+        </div>
+    </header>
+
+    <!-- Title -->
+
+    <h1>Your Order</h1>
+    <!-- Order Section -->
+    <section class="order">
+        <form action="confirm.html" method="get" class="order-form">
+            <h2>Choose Your Orders</h2>
+
+            <!-- KFC -->
+            <fieldset>
+                <legend>KFC</legend>
+                <label>
+          <input type="checkbox" name="kfc[]" value="Zinger Sandwich - 90EGP">
+          Zinger Sandwich - 90 EGP
+        </label>
+                <input type="number" name="kfc_qty[]" min="1" max="10" placeholder="Qty">
+
+                <label>
+          <input type="checkbox" name="kfc[]" value="Twister - 100EGP">
+          Twister - 100 EGP
+        </label>
+                <input type="number" name="kfc_qty[]" min="1" max="10" placeholder="Qty">
+            </fieldset>
+
+            <!-- Koshary -->
+            <fieldset>
+                <legend>Koshary El Tahrir</legend>
+                <label>
+          <input type="checkbox" name="koshary[]" value="Small Koshary - 25EGP">
+          Small Koshary - 25 EGP
+        </label>
+                <input type="number" name="koshary_qty[]" min="1" max="10" placeholder="Qty">
+
+                <label>
+          <input type="checkbox" name="koshary[]" value="Large Koshary - 45EGP">
+          Large Koshary - 45 EGP
+        </label>
+                <input type="number" name="koshary_qty[]" min="1" max="10" placeholder="Qty">
+            </fieldset>
+
+            <!-- Heart Attack -->
+            <fieldset>
+                <legend>Heart Attack</legend>
+                <label>
+          <input type="checkbox" name="heart[]" value="Smash Burger - 120EGP">
+          Smash Burger - 120 EGP
+        </label>
+                <input type="number" name="heart_qty[]" min="1" max="10" placeholder="Qty">
+
+                <label>
+          <input type="checkbox" name="heart[]" value="Double Cheese - 150EGP">
+          Double Cheese - 150 EGP
+        </label>
+                <input type="number" name="heart_qty[]" min="1" max="10" placeholder="Qty">
+            </fieldset>
+
+            <!-- Pizza Hut -->
+            <fieldset>
+                <legend>Pizza Hut</legend>
+                <label>
+          <input type="checkbox" name="pizza[]" value="Margherita - 90EGP">
+          Margherita - 90 EGP
+        </label>
+                <input type="number" name="pizza_qty[]" min="1" max="10" placeholder="Qty">
+
+                <label>
+          <input type="checkbox" name="pizza[]" value="Super Supreme - 160EGP">
+          Super Supreme - 160 EGP
+        </label>
+                <input type="number" name="pizza_qty[]" min="1" max="10" placeholder="Qty">
+            </fieldset>
+
+            <!-- Customer Info -->
+            <h2>Customer Info</h2>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Ahmed Taha" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+20 100 000 0000" required>
+
+            <label for="address">Delivery Address</label>
+            <textarea id="address" name="address" placeholder="Street, Building, Apartment" required></textarea>
+
+            <button type="submit">🛒 Confirm Order</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Aklty</a>
+            <a href="error.html">Terms & Conditions</a>
+            <a href="error.html">Privacy Policy</a>
+            <a href="error.html">Cookies</a>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/mody.t.essam">Facebook</a>
+            <a href="https://twitter.com/">Twitter</a>
+            <a href="https://youtube.com/shorts/5CIXXsxQVjE?si=606hzNDJrJ1pq3y-">YouTube</a>
+        </div>
+        <p>© Copyright 2025 - Aklty</p>
+    </footer>
+
+</body>
+
+</html>
