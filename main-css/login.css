@@ -66,13 +66,15 @@ body {
     text-decoration: underline;
 }
 
-label{
-    color:#e74c3c;
+label {
+    color: #e74c3c;
 }
+
+
 /* Footer Styles */
 
 footer {
-    background-color: #000;
+    background-color: #e74c3c;
     color: #fff;
     /* padding: 20px 0; */
     text-align: center;
@@ -92,6 +94,7 @@ footer a:hover {
 
 
 /* Responsive */
+
 @media screen and (max-width: 480px) {
     .login-section {
         margin: 20px;
