@@ -91,7 +91,7 @@ nav a.active {
 
 .hero {
     height: 360px;
-    background: url("../images/rocky-mountains-colorado-skalistye-gory-kolorado-gory-sosny.png") center/cover no-repeat;
+    background: url("/images/website_background_HD_1.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
